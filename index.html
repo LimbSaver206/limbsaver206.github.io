@@ -70,15 +70,19 @@
   <!-- Contact & Consultation -->
   <section id="contact">
     <h2>Get in Touch</h2>
-    <form id="contact-form" action="#" method="POST">
-      <label>Email*</label>
-      <input type="email" name="email" required/>
-      <label>Organization/Firm*</label>
-      <input type="text" name="firm" required/>
-      <label>Case Type*</label>
-      <input type="text" name="caseType" placeholder="e.g. Diabetic Foot Malpractice" required/>
-      <button type="submit" class="btn">Submit for 20‑Minute Call</button>
-    </form>
+    <form id="contact-form" action="https://formspree.io/f/mzzgjwao" method="POST">
+  <input type="hidden" name="_replyto" value="saramahmoodpm@gmail.com">
+  <input type="hidden" name="_subject" value="New Case Inquiry from Website">
+  <input type="hidden" name="_gotcha" style="display:none">
+  <label>Email*</label>
+  <input type="email" name="email" required/>
+  <label>Organization/Firm*</label>
+  <input type="text" name="firm" required/>
+  <label>Case Type*</label>
+  <input type="text" name="caseType" placeholder="e.g. Diabetic Foot Malpractice" required/>
+  <button type="submit" class="btn" id="submitButton">Submit for 20‑Minute Call</button>
+</form>
+
     <p>After form submission, I will reach out by email to schedule your free call.</p>
   </section>
 </main>
