@@ -151,3 +151,32 @@ footer {
   color: #777;
   text-align: center;
 }
+/* Font Family Update */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Using Font Awesome Icons */
+#services ul li::before {
+  content: "\f058"; /* Font Awesome check-circle */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 8px;
+  color: #0052cc;
+}
+
+/* Optional: Case and FAQ icons */
+.case-study::before {
+  content: "\f02d"; /* clipboard-list icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 8px;
+  color: #0052cc;
+}
+.faq h3::before {
+  content: "\f128"; /* question-circle */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: #0052cc;
+}
